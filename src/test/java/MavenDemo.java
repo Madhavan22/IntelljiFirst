@@ -16,5 +16,6 @@ public class MavenDemo {
         Search.sendKeys("Messi"+ Keys.ENTER);
         System.out.println(title);
         driver.quit();
+        System.out.printf("Second");
     }
 }
