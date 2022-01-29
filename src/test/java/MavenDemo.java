@@ -20,6 +20,6 @@ public class MavenDemo {
         driver.quit();
         System.out.println("NOt Hiro");
         System.out.println("Hello");
-        System.out.println("Deepak and Maddy");
+        int a =10;
     }
 }
