@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.sql.SQLOutput;
+
 public class MavenDemo {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
@@ -18,5 +20,6 @@ public class MavenDemo {
         driver.quit();
         System.out.println("NOt Hiro");
         System.out.println("Hello");
+        System.out.println("Deepak");
     }
 }
